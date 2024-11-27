@@ -1,0 +1,182 @@
+#sign-up input {
+    width: 100%;
+    border: 1 px solid white;
+    
+}
+
+* {
+    list-style-type: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+
+#header-navs ul a {
+    color: white;
+}
+
+#header-navs ul a li:hover {
+    color: burlywood;
+}
+
+#header-navs ul li.active {
+    color: burlywood;
+}
+
+ul#mobile-ul a li {
+    margin-bottom: 50px;
+}
+
+#menu-item {
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    background-color: black;
+    border: 1px solid burlywood;
+}
+
+#menu-item img {
+    max-width: 100%;
+    height: 150px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+#menu-item h3 {
+    margin-bottom: 10px;
+    color: white;
+    font-size: 15px;
+}
+
+#menu-item p {
+    color: burlywood;
+}
+
+
+
+#input {
+    position: relative;
+}
+
+#input .bi-search {
+    position: absolute;
+    right: 88%;
+    top: 25%;
+    padding-bottom: 15px;
+}
+
+#input span#loader {
+    position: absolute;
+    bottom: 20%;
+    right: 88%;
+}
+
+header {
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+header div .bi-cart {
+    position: relative;
+}
+
+header div #count {
+    position: absolute;
+    right: 7%;
+}
+
+.add-btn {
+    padding: 8px 15px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+       
+}
+
+form#catalog div#adding-product {
+    position: relative;
+}
+
+form#catalog div#adding-product #spin-icon {
+    position: absolute;
+}
+
+@media(max-width:575.98px) {
+    #input .bi-search {
+        position: absolute;
+        left: 8%;
+        top: 27%;
+        padding-bottom: 15px;
+    }
+
+    #input span#loader {
+        position: absolute;
+        left: 8%;
+        top: 30%;
+    }
+    
+    header div #count {
+        position: absolute;
+        left: 50%;
+    }
+}
+
+
+@media(max-width:767.98px) {
+    #input .bi-search {
+        position: absolute;
+        left: 8%;
+        top: 27%;
+        padding-bottom: 15px;
+    }
+
+    #input span#loader {
+        position: absolute;
+        left: 8%;
+        top: 30%; 
+    }
+    
+    header div #count {
+        position: absolute;
+        left: 37%;
+    }
+}
+
+
+
+@media(max-width:991.98px) {
+    #input .bi-search {
+        position: absolute;
+        left: 5%;
+        top: 27%;
+        padding-bottom: 15px;
+    }
+
+    #input span#loader {
+        position: absolute;
+        left: 5%;
+        top: 30%;   
+    }
+    
+    header div #count {
+        position: absolute;
+        right: 11.5%;
+    }
+
+    header div#cart-person-icon {
+        gap: 20px;
+        margin-bottom: 20px;
+    }
+}
